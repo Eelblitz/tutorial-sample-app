@@ -7,10 +7,10 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
     font-size: 16px;
     line-height: 1.5;
-    color: antiquewhite;
+    color: black;
     background: black;
 }
 
@@ -30,11 +30,12 @@ ul {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
+    justify-content:center;
 }
 
 .navbar {
-    background: whitesmoke;
-    color: black;
+    background: black;
+    color: goldenrod;
     height: 60px;
 }
 
@@ -44,7 +45,7 @@ ul {
 }
 
 .navbar a {
-    color: gold;
+    color: goldenrod;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -70,7 +71,7 @@ ul {
 }
 
 .header {
-    background-color:black;
+    background-color:goldenrod;
     color: black;
     min-height: 400px;
 }
@@ -87,4 +88,5 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
