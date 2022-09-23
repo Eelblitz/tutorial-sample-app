@@ -11,7 +11,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: black;
-    background: black;
+    background: goldenrod;
 }
 
 img {
@@ -30,7 +30,7 @@ ul {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
-    justify-content:center;
+    
 }
 
 .navbar {
@@ -52,7 +52,7 @@ ul {
 }
 
 .navbar a:hover{
-    color: blanchedalmond;
+    color: rgb(70, 68, 65);
 }
 
 .navbar .container {
@@ -73,7 +73,7 @@ ul {
 .header {
     background-color:goldenrod;
     color: black;
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .header h1 {
@@ -88,5 +88,25 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    align-items: center;
+}
+
+
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+    background: goldenrod;
+}
+
+.box {
+    flex: 1;
+    background: black;
+    color: goldenrod;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(218, 165, 32);
+    padding: 15px 20px;
+}
+
+h3 {
+    color: white;
 }
